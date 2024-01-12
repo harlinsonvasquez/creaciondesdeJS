@@ -1,0 +1,75 @@
+*{
+    margin: 0;/* con esto reseteamos todas las propiedades que trae por defecto*/
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    /* text-transform: capitalize; para que la primera letra de cada palabra sea mayuscula*/
+}
+.write{
+ 
+  background: wheat;
+}
+.write .card{
+  background:#F4ECEA;
+}
+.write button:hover{
+  background-color:#eae20b;
+  color: black;
+}
+.write button{
+  background: #f6a905;
+  border: none;
+}
+.write h3:hover{
+  color: #f7b305;
+  }
+
+/*temA OSCURO*/
+.black{
+  background: #060505;
+}
+
+.black .card{
+  background: #3E3C3C;
+}
+.black h2 {
+  color: white;
+}
+.black p{
+  color: white;
+}
+.black h3:hover{
+color: #EBD136;
+}
+.black button:hover{
+  background-color:#EBD136;
+  color: black;
+  border: none;
+}
+/*hasta aqui*/
+
+/*temA libre*/
+.libre{
+  background: #EBD136;
+}
+
+.libre .card{
+  background: #EBE571;
+}
+.libre h2 {
+  color: black;
+}
+.libre p{
+  color: black;
+}
+.libre button:hover{
+  
+  background-color:#EDA307;
+  color: black;
+}
+ .libre button{
+ 
+  background: black;
+  border: none;
+}
